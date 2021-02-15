@@ -1,0 +1,38 @@
+{
+  "name": "assignment-nodejs-boilerplace",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for a NodeJS assignment",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rimraf dist && babel src --out-dir dist",
+    "start:dev": "nodemon --exec babel-node src/index.js",
+    "start": "node dist/index.js"
+  },
+  "author": "SD",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.12.13",
+    "body-parser": "^1.19.0",
+    "checkit": "^0.7.0",
+    "cross-env": "^7.0.3",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.16",
+    "uuidv4": "^6.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.16",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2"
+  }
+}
