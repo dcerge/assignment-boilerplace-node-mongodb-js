@@ -2,14 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/node_modules
-/.vscode
-/.vs/slnx.sqlite
-/log
-mongodbconnection_old2.js
-appsettings_old2.js
-appsettings.js
-/client/node_modules
+dist
+node_modules
+log
+.vscode
+.vs
 .env
 *.ignore.js
 *.log
